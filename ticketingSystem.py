@@ -25,7 +25,7 @@ while (True):
     
     time.sleep(1)
     curr: Ticket = ticketQueue.get()
-    print('Ticket Number: ' + str(curr.num) + ' | Time: ' + curr.timeStamp)
+    print('Ticket Number: ' + str(curr.num) + ' | Time Used: ' + curr.timeStamp)
     
     
     
